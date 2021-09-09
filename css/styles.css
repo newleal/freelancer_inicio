@@ -1,3 +1,12 @@
+:root { /* es un speudo elemento llamado Custome Properties*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+
+}
+
 html {
     font-size: 62.5%;
 }
@@ -5,11 +14,11 @@ body {
     font-size: 16px;
 }
 /* Las dos hack anteriores me estan haciendo la conversion de 1rem = 10px */
-h1 {
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 }
 
-span {
+.titulo span {
     font-size: 2rem;
 }
