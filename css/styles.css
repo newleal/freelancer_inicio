@@ -4,7 +4,9 @@
     --primario: #ffc107;
     --secundario: #0097A7;
     --gris: #757575;
-
+    /* Para llamar a estas variables se pone la palabra var(--nombre de variable)
+       ejemplo: color: var(--primario)
+    */
 }
 
 html {
@@ -18,7 +20,7 @@ body {
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-    
+
 }
 
 .titulo span {
