@@ -6,6 +6,7 @@
     --gris: #757575;
     /* Para llamar a estas variables se pone la palabra var(--nombre de variable)
        ejemplo: color: var(--primario)
+       Todo lo que se envia desde trabajo
     */
 }
 
